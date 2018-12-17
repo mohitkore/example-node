@@ -6,6 +6,6 @@ describe("simple", function(){
     expect(simple.math(1)).to.equal(true);
   });
   it("should return false", function(){
-    expect(simple.math(0)).to.equal(true);
+    expect(simple.math(0)).to.equal(fail);
   });
 });
