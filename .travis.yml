@@ -10,3 +10,6 @@ install:
   - cd istanbul-mocha && npm install && cd ..
 script:
   - cd istanbul-mocha && npm test
+branches:
+  only:
+   -test
